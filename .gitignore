@@ -1,0 +1,21 @@
+# Local Python and Windows builds
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+build-v*/
+*.egg-info/
+dist/
+*.spec
+*.log
+
+# User state, Parsec authentication and installers
+*.bin
+*.dll
+*.zip
+.env
+*.local
+secrets/
+releases/
